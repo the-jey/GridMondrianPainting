@@ -28,11 +28,11 @@ h1 {
 " . w5 w5 . w6 w6 w6 w7 y1 y1 y1 r0 r0 r0 r0 r1 w3 y0"
 " . w5 w5 . y2 r2 r2 r2 b2 b2 b2 w8 w8 w8 w8 w9 . ."
 " . w5 w5 . y2 r2 r2 r2 b2 b2 b2 w8 w8 w8 w8 w9 . ."
-" . . . . . . . . . . . . . . . . . ."
-" . . . . . . . . . . . . . . . . . ."
-" . . . . . . . . . . . . . . . . . ."
-" . . . . . . . . . . . . . . . . . ."
-" . . . . . . . . . . . . . . . . . .";
+" w10 r3 r3 . y3 w11 w11 w11 w11 w11 w12 w12 w12 b3 b3 y4 w13 w13"
+" w10 r3 r3 . y3 w11 w11 w11 w11 w11 w12 w12 w12 b3 b3 y4 w13 w13"
+" w10 r3 r3 . y3 w11 w11 w11 w11 w11 w12 w12 w12 b3 b3 y4 w13 w13"
+" w10 r3 r3 . y3 r4 r4 r4 . . . . . w14 w14 w14 w14 w14"
+" w15 w15 w15 w15 y3 r4 r4 r4 . . . . . w14 w14 w14 w14 w14";
 }
 
 /* ---------------------------------------------------------*/
@@ -80,6 +80,31 @@ h1 {
   grid-area: w9;
 }
 
+.white10 {
+  grid-area: w10;
+}
+
+.white11 {
+  grid-area: w11;
+}
+
+.white12 {
+  grid-area: w12;
+}
+
+.white13 {
+  grid-area: w13;
+}
+
+.white14 {
+  grid-area: w14;
+}
+
+.white15 {
+  grid-area: w15;
+}
+
+
 /* ------------------------- YELLOW AREAS -------------------*/
 .yellow0 {
   grid-area: y0;
@@ -93,6 +118,14 @@ h1 {
   grid-area: y2;
 }
 
+.yellow3 {
+  grid-area: y3
+}
+
+.yellow4 {
+  grid-area: y4;
+}
+
 /* ------------------------- RED AREAS -------------------*/
 .red0 {
   grid-area: r0;
@@ -103,9 +136,16 @@ h1 {
 }
 
 .red2 {
-  grid-area: r2
+  grid-area: r2;
 }
 
+.red3 {
+  grid-area: r3;
+}
+
+.red4 {
+  grid-area: r4;
+}
 /* ------------------------- BLUE AREAS -------------------*/
 .blue0 {
   grid-area: b0;
@@ -119,6 +159,9 @@ h1 {
   grid-area: b2;
 }
 
+.blue3 {
+  grid-area: b3;
+}
 
 
 
@@ -129,21 +172,21 @@ h1 {
 /* ---------------------------------------------------------*/
 
 /* WHITE COLOR */
-.white0, .white1, .white2, .white3, .white4, .white5, .white6, .white7, .white8, .white9 {
+.white0, .white1, .white2, .white3, .white4, .white5, .white6, .white7, .white8, .white9, .white10, .white11, .white12, .white13, .white14, .white15 {
   background-color: whitesmoke;
 }
 
 /* YELLOW COLOR */
-.yellow0, .yellow1, .yellow2 {
+.yellow0, .yellow1, .yellow2, .yellow3, .yellow4 {
   background-color: yellow;
 }
 
 /* BLUE COLOR */
-.blue0, .blue1, .blue2 {
+.blue0, .blue1, .blue2, .blue3 {
   background-color: navy;
 }
 
 /* RED COLOR */
-.red0, .red1, .red2 {
+.red0, .red1, .red2, .red3, .red4 {
   background-color: red;
 }

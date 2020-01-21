@@ -1,0 +1,204 @@
+/* ---------------------------------------------------------*/
+/* ----------------------- GENERALS ------------------------*/
+/* ---------------------------------------------------------*/
+
+/* FONTS IMPORT */
+@import url('https://fonts.googleapis.com/css?family=Oswald:700&display=swap');
+/*----------------------------------------------------------------------------*/
+
+body {
+  background-color: rgb(255, 69, 0);
+  ;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Oswald';
+  font-size: 110px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+  text-shadow: 2px 2px 10px black;
+}
+
+#grid-container {
+  margin: 0 auto;
+  height: 55vh;
+  width: 800px;
+  display: grid;
+  background-color: black;
+  border: solid 6px black;
+  grid-gap: 6px;
+  grid-template-areas: 
+" w0 w1 w1 w1 w1 w1 w1 w1 w2 w2 w2 w2 w2 w2 w2 w2 w3 y0"
+" w0 b0 b0 b0 b0 b0 b0 b0 w4 w4 w4 b1 b1 b1 b1 b1 w3 y0"
+" w0 b0 b0 b0 b0 b0 b0 b0 w4 w4 w4 b1 b1 b1 b1 b1 w3 y0"
+" . w5 w5 . w6 w6 w6 w7 y1 y1 y1 r0 r0 r0 r0 r1 w3 y0"
+" . w5 w5 . w6 w6 w6 w7 y1 y1 y1 r0 r0 r0 r0 r1 w3 y0"
+" . w5 w5 . w6 w6 w6 w7 y1 y1 y1 r0 r0 r0 r0 r1 w3 y0"
+" . w5 w5 . w6 w6 w6 w7 y1 y1 y1 r0 r0 r0 r0 r1 w3 y0"
+" . w5 w5 . y2 r2 r2 r2 b2 b2 b2 w8 w8 w8 w8 w9 . ."
+" . w5 w5 . y2 r2 r2 r2 b2 b2 b2 w8 w8 w8 w8 w9 . ."
+" w10 r3 r3 . y3 w11 w11 w11 w11 w11 w12 w12 w12 b3 b3 y4 w13 w13"
+" w10 r3 r3 . y3 w11 w11 w11 w11 w11 w12 w12 w12 b3 b3 y4 w13 w13"
+" w10 r3 r3 . y3 w11 w11 w11 w11 w11 w12 w12 w12 b3 b3 y4 w13 w13"
+" w10 r3 r3 . y3 r4 r4 r4 . . . . . w14 w14 w14 w14 w14"
+" w15 w15 w15 w15 y3 r4 r4 r4 . . . . . w14 w14 w14 w14 w14";
+box-shadow: 2px 2px 10px black;
+}
+
+/* ---------------------------------------------------------*/
+/* ----------------------- AREAS ---------------------------*/
+/* ---------------------------------------------------------*/
+
+/* ------------------------- WHITE AREAS -------------------*/
+.white0 {
+  grid-area: w0;
+}
+
+.white1 {
+  grid-area: w1;
+}
+
+.white2 {
+  grid-area: w2;
+}
+
+.white3 {
+  grid-area: w3;
+}
+
+.white4 {
+  grid-area: w4;
+}
+
+.white5 {
+  grid-area: w5;
+}
+
+.white6 {
+  grid-area: w6;
+}
+
+.white7 {
+  grid-area: w7;
+}
+
+.white8 {
+  grid-area: w8;
+}
+
+.white9 {
+  grid-area: w9;
+}
+
+.white10 {
+  grid-area: w10;
+}
+
+.white11 {
+  grid-area: w11;
+}
+
+.white12 {
+  grid-area: w12;
+}
+
+.white13 {
+  grid-area: w13;
+}
+
+.white14 {
+  grid-area: w14;
+}
+
+.white15 {
+  grid-area: w15;
+}
+
+
+/* ------------------------- YELLOW AREAS -------------------*/
+.yellow0 {
+  grid-area: y0;
+}
+
+.yellow1 {
+  grid-area: y1;
+}
+
+.yellow2 {
+  grid-area: y2;
+}
+
+.yellow3 {
+  grid-area: y3
+}
+
+.yellow4 {
+  grid-area: y4;
+}
+
+/* ------------------------- RED AREAS -------------------*/
+.red0 {
+  grid-area: r0;
+}
+
+.red1 {
+  grid-area: r1;
+}
+
+.red2 {
+  grid-area: r2;
+}
+
+.red3 {
+  grid-area: r3;
+}
+
+.red4 {
+  grid-area: r4;
+}
+/* ------------------------- BLUE AREAS -------------------*/
+.blue0 {
+  grid-area: b0;
+}
+
+.blue1 {
+  grid-area: b1;
+}
+
+.blue2 {
+  grid-area: b2;
+}
+
+.blue3 {
+  grid-area: b3;
+}
+
+
+
+
+
+/* ---------------------------------------------------------*/
+/* ----------------------- COLORS --------------------------*/
+/* ---------------------------------------------------------*/
+
+/* WHITE COLOR */
+.white0, .white1, .white2, .white3, .white4, .white5, .white6, .white7, .white8, .white9, .white10, .white11, .white12, .white13, .white14, .white15 {
+  background-color: whitesmoke;
+}
+
+/* YELLOW COLOR */
+.yellow0, .yellow1, .yellow2, .yellow3, .yellow4 {
+  background-color: yellow;
+}
+
+/* BLUE COLOR */
+.blue0, .blue1, .blue2, .blue3 {
+  background-color: navy;
+}
+
+/* RED COLOR */
+.red0, .red1, .red2, .red3, .red4 {
+  background-color: red;
+}

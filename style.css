@@ -1,14 +1,25 @@
 /* ---------------------------------------------------------*/
 /* ----------------------- GENERALS ------------------------*/
 /* ---------------------------------------------------------*/
+body {
+  background-color: red;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 60px;
+}
 #grid-container {
-  height: 55vh;
-  width: 560px;
+  margin: 0 auto;
+  height: 60vh;
+  width: 800px;
   display: grid;
   background-color: black;
-  border: solid 1px black;
+  border: solid 8px black;
+  grid-gap: 8px;
   grid-template-areas: 
-" . . . . . . . . . . . . . . . . . ."
+" w0 w1 w1 w1 w1 w1 w1 w1 w2 w2 w2 w2 w2 w2 w2 w2 w3 y0"
 " . . . . . . . . . . . . . . . . . ."
 " . . . . . . . . . . . . . . . . . ."
 " . . . . . . . . . . . . . . . . . ."
@@ -28,6 +39,36 @@
 /* ----------------------- AREAS ---------------------------*/
 /* ---------------------------------------------------------*/
 
+#item0 {
+  grid-area: w0;
+}
+
+#item1 {
+  grid-area: w1;
+}
+
+#item2 {
+  grid-area: w2;
+}
+
+#item3 {
+  grid-area: w3;
+}
+
+#item4 {
+  grid-area: y0;
+}
+
 /* ---------------------------------------------------------*/
 /* ----------------------- COLORS --------------------------*/
 /* ---------------------------------------------------------*/
+
+/* WHITE COLOR */
+#item0, #item1, #item2, #item3 {
+  background-color: whitesmoke;
+}
+
+/* YELLOW COLOR */
+#item4 {
+  background-color: yellow;
+}

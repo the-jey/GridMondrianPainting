@@ -1,15 +1,26 @@
 /* ---------------------------------------------------------*/
 /* ----------------------- GENERALS ------------------------*/
 /* ---------------------------------------------------------*/
+
+/* FONTS IMPORT */
+@import url('https://fonts.googleapis.com/css?family=Oswald:700&display=swap');
+/*----------------------------------------------------------------------------*/
+
 body {
-  background-color: red;
+  background-color: rgb(255, 69, 0);
+  ;
 }
 
 h1 {
   text-align: center;
-  font-size: 60px;
-  margin-bottom: 60px;
+  font-family: 'Oswald';
+  font-size: 110px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+  text-shadow: 2px 2px 10px black;
 }
+
 #grid-container {
   margin: 0 auto;
   height: 55vh;
@@ -33,6 +44,7 @@ h1 {
 " w10 r3 r3 . y3 w11 w11 w11 w11 w11 w12 w12 w12 b3 b3 y4 w13 w13"
 " w10 r3 r3 . y3 r4 r4 r4 . . . . . w14 w14 w14 w14 w14"
 " w15 w15 w15 w15 y3 r4 r4 r4 . . . . . w14 w14 w14 w14 w14";
+box-shadow: 2px 2px 10px black;
 }
 
 /* ---------------------------------------------------------*/

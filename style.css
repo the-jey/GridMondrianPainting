@@ -12,16 +12,16 @@ h1 {
 }
 #grid-container {
   margin: 0 auto;
-  height: 60vh;
+  height: 55vh;
   width: 800px;
   display: grid;
   background-color: black;
-  border: solid 8px black;
-  grid-gap: 8px;
+  border: solid 6px black;
+  grid-gap: 6px;
   grid-template-areas: 
 " w0 w1 w1 w1 w1 w1 w1 w1 w2 w2 w2 w2 w2 w2 w2 w2 w3 y0"
-" . . . . . . . . . . . . . . . . . ."
-" . . . . . . . . . . . . . . . . . ."
+" w0 b0 b0 b0 b0 b0 b0 b0 w4 w4 w4 b1 b1 b1 b1 b1 w3 y0"
+" w0 b0 b0 b0 b0 b0 b0 b0 w4 w4 w4 b1 b1 b1 b1 b1 w3 y0"
 " . . . . . . . . . . . . . . . . . ."
 " . . . . . . . . . . . . . . . . . ."
 " . . . . . . . . . . . . . . . . . ."
@@ -39,36 +39,55 @@ h1 {
 /* ----------------------- AREAS ---------------------------*/
 /* ---------------------------------------------------------*/
 
-#item0 {
+.white0 {
   grid-area: w0;
 }
 
-#item1 {
+.white1 {
   grid-area: w1;
 }
 
-#item2 {
+.white2 {
   grid-area: w2;
 }
 
-#item3 {
+.white3 {
   grid-area: w3;
 }
 
-#item4 {
+.yellow0 {
   grid-area: y0;
 }
+
+.blue0 {
+  grid-area: b0;
+}
+
+.white4 {
+  grid-area: w4;
+}
+
+.blue1 {
+  grid-area: b1;
+}
+
+
 
 /* ---------------------------------------------------------*/
 /* ----------------------- COLORS --------------------------*/
 /* ---------------------------------------------------------*/
 
 /* WHITE COLOR */
-#item0, #item1, #item2, #item3 {
+.white0, .white1, .white2, .white3, .white4 {
   background-color: whitesmoke;
 }
 
 /* YELLOW COLOR */
-#item4 {
+.yellow0 {
   background-color: yellow;
+}
+
+/* BLUE COLOR */
+.blue0, .blue1 {
+  background-color: navy;
 }
